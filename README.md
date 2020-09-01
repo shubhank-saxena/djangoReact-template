@@ -6,9 +6,13 @@
 
 [![Pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/shubhank-saxena/djangoReact-template/blob/master/.pre-commit-config.yaml)
 [![License](https://img.shields.io/github/license/shubhank-saxena/djangoReact-template)](https://github.com/shubhank-saxena/djangoReact-template/blob/master/LICENSE)
-
-This is the most convenient starter template of Django+React code with Django serving React and containing all the dependencies required to create django-rest-api
 </div>
+
+<strong>This is the most convenient starter template of Django+React code with following features - 
+- Django serving React 
+- Contains all the dependencies required to create django-rest-api. 
+
+A perfect template for you to focus on starting your hack project or your deployed project. Leave all the gibberish of setup and just focus on innovating and creating amazing tech :heart:</strong>
 
 
 
