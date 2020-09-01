@@ -66,6 +66,15 @@ This runs the app in the development mode.
 
 The page will reload if you make edits.
 
+## Production grade deployment
+This project tried to follow the best practices and you can directly deploy the repo with the following points -
+
+- Create an .env in your deployment environment(refer .env.example file for the same).
+    - For django `SECRET_KEY` you can generate one from [here](https://djecrety.ir/)
+    - Set DEBUG = 'False' when using in production/live deployment.
+- Add the hostname/url(the one on which your deployed server is working) in the `settings.py` file (under allowed hosts array)
+- Add your suitable `TIME_ZONE` and `LANGUAGE_CODE` in `settings.py` according to your zone and locale.
+
 #### Note [Important]
 
 - The `manage.py` file is moved out of the default django project. So everytime you run `manage.py startapp app`, it will create the required app in the root of the project. So you will have to move it in the backend folder and while registering the app in `settings.py`, you will have to mention `backend.app`.
