@@ -1,0 +1,39 @@
+.*/
+node_modules/
+.DS_store
+yarn-error.log
+npm-error.log
+vagrant/env_local.sh
+**/*.pyc
+**/__pycache__
+*.ppk
+!.github
+
+#build files
+build/
+static/
+
+# vi
+*.swp
+
+# Caches
+.eslintcache
+# PyCharm
+*.iml
+
+# emacs
+*~
+\#*
+
+#docker custom environment
+.env
+env/
+
+# Ignore tox installation
+.tox
+
+# Ignore db file
+*.sqlite3
+
+service-account.json
+media
