@@ -72,3 +72,9 @@ The page will reload if you make edits.
 - The `config` folder in the backend directory is the actual root project of the django project (one which has django settings and main app urls).
 - There is a folder named `demo` in the backend folder. That's a demo api folder for reference.
 - This project has pre-commit. So if you are using this project on which a lot of people are contributing, make sure you run `pre-commit install` in the project repo so that git hooks are enabled.
+
+## Todo
+- [ ] Create a CI/CD branch to automate testing (if any)
+- [ ] Create a GCP Deployment (both engine and VM) branch
+- [ ] Create a Azure deployment branch
+- [ ] Create a AWS deployment branch
