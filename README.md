@@ -81,6 +81,9 @@ This project tried to follow the best practices and you can directly deploy the 
 - The `config` folder in the backend directory is the actual root project of the django project (one which has django settings and main app urls).
 - There is a folder named `demo` in the backend folder. That's a demo api folder for reference.
 - This project has pre-commit. So if you are using this project on which a lot of people are contributing, make sure you run `pre-commit install` in the project repo so that git hooks are enabled.
+- Stuff you can delete (I added them just to refer)
+    - `index.js` and related files in `./src/` and `app.js` and related files in `./src/components/`
+    - `demo` folder from `./backend/` 
 
 ## Todo
 - [ ] Create a CI/CD branch to automate testing (if any)
