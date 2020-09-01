@@ -92,6 +92,7 @@ Please follow a systematic Git Workflow -
 - When you're submitting a PR for a UI-related issue, it would be really awesome if you add a screenshot of your change or a link to a deployment where it can be tested out along with your PR. It makes it very easy for the reviewers and you'll also get reviews quicker.
 
 ## Todo
+- [ ] Create a pip package (current focus)
 - [ ] Create a CI/CD branch to automate testing (if any)
 - [ ] Create a GCP Deployment (both engine and VM) branch
 - [ ] Create a Azure deployment branch
