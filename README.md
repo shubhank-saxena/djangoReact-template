@@ -10,10 +10,11 @@
 
 <strong>This is the most convenient starter template of Django+React code with following features - 
 - Django serving React 
-- Contains all the dependencies required to create django-rest-api. 
+- Contains all the dependencies required to create django-rest-api.
+- Contains pre-commit for optimized and clean code.
+- Secure application with production grade env system.
 
 A perfect template for you to focus on starting your hack project or your deployed project. Leave all the gibberish of setup and just focus on innovating and creating amazing tech :heart:</strong>
-
 
 
 
