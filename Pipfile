@@ -22,6 +22,8 @@ whitenoise = "*"
 gunicorn = "*"
 django-environ = "*"
 pre-commit = "*"
+graphene-django = "*"
+django-graphql-jwt = "*"
 
 [requires]
 python_version = "3.8"
