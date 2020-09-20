@@ -30,8 +30,9 @@ A perfect template for you to focus on starting your hack project or your deploy
 
 - Fork the repo and clone it.
 - Navigate to the cloned repo.
+- Activate env using `pipenv shell` and install dependencies by `pipenv install`
+- Install all react dependencies by running `yarn install`
 - Run `build_local.sh`. (Make sure it's in executable mode by `sudo chmod +x build_local.sh`)
-- Then run `pipenv shell` to activate the environment.
 - Start the backend server
   `python ./manage.py runserver`
   
